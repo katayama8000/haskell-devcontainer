@@ -43,9 +43,15 @@ main = do
         1 -> print "x is 1"
         _ -> print "x is not 1"
 
-    -- loop
-    let numbers = [1, 2, 3, 4, 5]
-    forM_ numbers $ \number -> do
-        print number
+    -- type
+    let x = 1 :: Int
+    let y = 2 :: Double
+    let z = 3 :: Float
+    let str = "Hello, World!" :: String
+    let arr = [1, 2, 3, 4, 5] :: [Int]
+    let strArr = ["Hello", "World"] :: [String]
+    let tup = ("John", 30, 20) :: (String, Int, Int)
+    let obj = [("John", 30), ("Jane", 25)] :: [(String, Int)]
+    print x
 
 
