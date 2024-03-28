@@ -1,0 +1,12 @@
+{
+    "name": "HaskellDevContainer",
+    "image": "haskell:9.8.2",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // https://marketplace.visualstudio.com/items?itemName=haskell.haskell
+                "haskell.haskell"
+            ]
+        }
+    }
+}
